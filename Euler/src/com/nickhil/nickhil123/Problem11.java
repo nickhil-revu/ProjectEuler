@@ -43,7 +43,7 @@ public class Problem11 {
 	 * 
 	 */
 	public static void main(String[] args) throws IOException {
-		FileInputStream file = new FileInputStream("C:\\Users\\Nickhil\\workspace\\Euler\\text\\file1");
+		FileInputStream file = new FileInputStream("C:\\Users\\Nickhil\\git\\ProjectEuler\\Euler\\text\\file1");
 		InputStreamReader isr = new InputStreamReader(new DataInputStream(file));
 		BufferedReader br = new BufferedReader(isr);
 		
