@@ -4,7 +4,7 @@ package com.nickhil.nickhil123;
  * Problem5: 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
  * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
  *
- * ANSWER: 27720
+ * ANSWER: 232792560
  */
 
 
@@ -41,7 +41,7 @@ public class Problem05 {
 		return false;
 	}*/
 	int p=1;int a=1;	
-	for(int i=1;i<=12;i++)
+	for(int i=1;i<=20;i++)
 	{
 		if(prime(i))
 		{
@@ -49,11 +49,11 @@ public class Problem05 {
 		}
 		else if(p%i!=0)
 		{
-		for(int j=1;j<i;j++)
-		{
-			if(i%j==0)
-				a=j;
-		}
+			for(int j=1;j<i;j++)
+			{
+				if(i%j==0)
+					a=j;
+			}
 		p=p*(i/a);
 		}//else
 	}
