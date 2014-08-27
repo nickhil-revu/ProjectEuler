@@ -17,7 +17,7 @@ Find the maximum total from top to bottom of the triangle below:
 
 * Input: file5
 * 
-*ANSWER: 6580
+*ANSWER: 7273
 */
 
 public class Problem67 {
