@@ -31,6 +31,7 @@ public class Problem22 {
 		BufferedReader br = new BufferedReader(isr);
 		ArrayList<String> names = new ArrayList<String>();
 		String[] str = br.readLine().split(",");
+		br.close();
 		for(String s:str)
 		{
 			names.add(s.substring(1,(s.length()-1)));

@@ -26,7 +26,6 @@ public class Problem02 {
 		fibb.add(f0);
 		fibb.add(f1);
 		int temp;
-		int t;
 		while(f0+f1<4000000)
 		{
 			fibb.add(f0+f1);

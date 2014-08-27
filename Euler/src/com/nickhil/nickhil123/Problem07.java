@@ -21,7 +21,7 @@ public class Problem07 {
 	public static void main(String[] args) {
 		int i,j;
 		int count=0;
-		ArrayList<Integer> list = new<Integer> ArrayList();
+		ArrayList<Integer> list = new ArrayList<Integer>();
 		for(i=2;i<=200000;i++)
 		{
 			for(j=1;j*j<=i;j++)

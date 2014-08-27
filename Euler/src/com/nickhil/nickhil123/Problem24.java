@@ -1,8 +1,5 @@
 package com.nickhil.nickhil123;
 
-import java.util.LinkedList;
-import java.util.List;
-
 /* Problem 24: A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are:
 
 012   021   102   120   201   210
@@ -55,7 +52,6 @@ public class Problem24 {
 		long n1=0,n2=0,n3=0,n4=0,n5=0,n6=0,n7=0,n8=0,n9=0,n0=0;
 		long i1,i2,i3,i4,i5,i6,i7,i8,i9,i0;
 		long count=0;
-		List<String> list = new LinkedList();
 		for( i0=2;i0<10;i0++)
 		{
 			n0=i0;

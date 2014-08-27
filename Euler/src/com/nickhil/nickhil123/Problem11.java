@@ -70,7 +70,7 @@ public class Problem11 {
 		    }
 		    System.out.println();
 		}
-		
+		br.close();
 		//Horizontal 4 numbers without 0's
 		for(i=0;i<20;i++)
 		{

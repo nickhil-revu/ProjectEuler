@@ -36,6 +36,7 @@ public class Problem13 {
 			sum=sum.add(num);
 			
 		}
+		br.close();
 		long end=System.nanoTime();
 		NumberFormat f = new DecimalFormat("#0.0000");
 		

@@ -36,7 +36,7 @@ public class Problem26 {
 			ans=BigDecimal.valueOf(1).divide(BigDecimal.valueOf(i),100, RoundingMode.HALF_UP);
 			System.out.println(i+" " +ans);
 		}*/
-		int sol,n,n1;
+		int n,n1;
 		ArrayList<Integer> arr = new ArrayList<Integer>();
 		int count=0;
 		for(int i=992;i>0;i--)

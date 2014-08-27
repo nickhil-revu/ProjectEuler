@@ -38,7 +38,7 @@ Problem 67, is the same challenge with a triangle containing one-hundred rows;
  * 
  * Input: file3
  * 
- * ANSWER: 1064
+ * ANSWER: 1074
  */
 public class Problem18 {
 
@@ -61,7 +61,7 @@ public class Problem18 {
 				a[i][j]=Integer.parseInt(s[j]);
 			i++;
 		}
-		
+		br.close();
 		for(i=0;i<15;i++)
 		{
 			for(int j=0;j<=i;j++)

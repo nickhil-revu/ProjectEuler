@@ -16,7 +16,7 @@ public class Problem21 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int i,n;
+		int i;
 		int sum1,sum2;
 		int finalSum=0;
 		for(i=1;i<=10000;i++)
